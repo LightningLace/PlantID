@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alacey.plantid" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".beginID"
+            android:label="@string/title_activity_begin_id"
+            android:parentActivityName=".HomeScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alacey.plantid.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".beginFlower"
+            android:label="@string/title_activity_begin_flower"
+            android:parentActivityName=".beginID" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alacey.plantid.beginID" />
+        </activity>
+        <activity
+            android:name=".beginTree"
+            android:label="@string/title_activity_begin_tree"
+            android:parentActivityName=".beginID" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alacey.plantid.beginID" />
+        </activity>
+        <activity
+            android:name=".opposite"
+            android:label="@string/title_activity_opposite"
+            android:parentActivityName=".beginTree" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alacey.plantid.beginTree" />
+        </activity>
+        <activity
+            android:name=".alternate"
+            android:label="@string/title_activity_alternate"
+            android:parentActivityName=".beginTree" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alacey.plantid.beginTree" />
+        </activity>
+        <activity
+            android:name=".wildflower"
+            android:label="@string/title_activity_wildflower"
+            android:parentActivityName=".beginFlower" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alacey.plantid.beginFlower" />
+        </activity>
+        <activity
+            android:name=".regular"
+            android:label="@string/title_activity_regular"
+            android:parentActivityName=".wildflower" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alacey.plantid.wildflower" />
+        </activity>
+        <activity
+            android:name=".irregular"
+            android:label="@string/title_activity_irregular"
+            android:parentActivityName=".wildflower" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.alacey.plantid.wildflower" />
+        </activity>
+    </application>
+
+</manifest>

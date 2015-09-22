@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">plantID</string>
+
+    <string name="title">PlantID</string>
+    <string name="subtitle1">A Virtual Dichotomous Key</string>
+    <string name="subtitle2">For Native Plants of the Northeast</string>
+    <string name="action_settings">Settings</string>
+    <string name="startOver">Start over</string>
+
+    <string name="title_activity_begin_id">beginID</string>
+    <string name="title_activity_alternate">alternate</string>
+    <string name="title_activity_branch_explanation">branchExplanation</string>
+    <string name="title_activity_begin_tree">beginTree</string>
+    <string name="title_activity_opposite">opposite</string>
+    <string name="title_activity_begin_flower">beginFlower</string>
+    <string name="title_activity_wildflower">wildflower</string>
+
+    <string name="beginID_line1">Would you like to identify&#8230;</string>
+    <string name="beginID_line2">A flower?</string>
+    <string name="beginID_line3">A tree?</string>
+
+    <string name="beginTree1">Does the tree have&#8230;</string>
+    <string name="beginTree2">Opposite branching</string>
+    <string name="beginTree3">Alternate branching</string>
+    <string name="beginTree4">[What does this mean?]</string>
+
+    <string name="beginFlower1">Is the flower part of&#8230;</string>
+    <string name="beginFlower2">A shrub?</string>
+    <string name="beginFlower3">A vine?</string>
+    <string name="beginFlower4">It\'s just a flower</string>
+
+    <string name="wildflower1">Is the flower regular or irregular?</string>
+    <string name="wildflower2">Regular</string>
+    <string name="wildflower3">Irregular</string>
+    <string name="wildflower4">[What does this mean?]</string>
+
+    <string name="regular1">How many symmetrical parts occur about the axis?</string>
+    <string name="regular2">[What does this mean?]</string>
+    <string name="regular3">[What does this mean?]</string>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_world">Nothing here yet</string>
+    <string name="title_activity_regular">regular</string>
+    <string name="title_activity_irregular">irregular</string>
+
+    <string-array name="spinner_array">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7+</item>
+    </string-array>
+
+</resources>
