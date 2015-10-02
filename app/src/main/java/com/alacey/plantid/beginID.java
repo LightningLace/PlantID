@@ -1,19 +1,26 @@
 package com.alacey.plantid;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.content.Intent;
 import android.view.View;
+import android.widget.TextView;
 
 public class beginID extends AppCompatActivity {
 
+    Typeface tf;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_begin_id);
         Intent intent = getIntent();
+
+        TextView text = (TextView) findViewById(R.id.textView2);
+        Typeface.createFromAsset(this.getResources().getAssets(), "fonts/Roboto-Bold.ttf");
+        text.setTypeface(tf);
     }
 
     @Override
