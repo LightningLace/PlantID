@@ -12,6 +12,9 @@ public class DatabaseController extends Activity {
         //getActionBar().setDisplayHomeAsUpEnabled(true);
 
         MySQLiteOpenHelper db = new MySQLiteOpenHelper(this);
+        /*
+        TODO: Allow internet access in manifest
+         */
 
         /*
          *  ~~~FOR TESTING DATABASE~~~
